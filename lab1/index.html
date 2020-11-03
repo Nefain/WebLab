@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПерваяЛаба</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <p class="label lead">При нажатие на картинку меняет размер картинки и покзывает место учебы и работы</p>
+    <div class="mainBorder">
+        <img src="./unnamed.jpg" alt="клик для увелечения" class="locateImg" id="someimg" onclick="changeSizeImage()" data-toggle="tooltip" data-placement="top" title="Click on me">
+        <div class="innerDiv divideLine">
+            <p>Фамилия: Чурбанову</p>
+            <p>Имя: Ростислав</p>
+            <p>Отчество: Юрьевич</p>
+            <p>Телефон: +76545321182</p>
+            <p>Место рождения: Набережные Челны</p> 
+            <p>Электронная почта: breadmaker@list.ru</p>
+            <p>Образование: среднее</p>
+            <p>P.S. При наведении на картинку появляется подсказка</p>
+            <p class="hidden" id="Stankin">Место учебы: Станкин</p>
+            <p class="hidden" id="Work">Место работы: Нет</p>     
+            <a href="https://stankin.ru" ><img src="./logo.jpg" style="position: absolute; bottom: 18px; left: -250px;" alt="NotPicture"></a>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>

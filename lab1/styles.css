@@ -1,0 +1,50 @@
+.mainBorder {
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    width: 800px;
+    height: 430px;
+    position: relative;
+    left: 200px;
+    top: 30px;
+    background-color: gray;
+    color: white;
+}
+
+.divideLine p {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+}
+
+.innerDiv {
+    margin-left: 350px;
+    margin-top: 5px;
+    position: relative;
+    width: 50%;
+}
+
+.locateImg {
+    position: absolute;
+    right: 480px;
+    top: 3px;
+    width: 150px;
+    height: 150px;
+}
+
+
+.label {
+    text-align: center;
+}
+
+.hidden
+{
+    visibility: hidden;
+}
+  
+  
+  
+  
+  
